@@ -1,7 +1,5 @@
-from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
-
+##数据库设计
+"""
 
 class Students(db.Model):
     __tablename__ = "Students"
@@ -11,7 +9,7 @@ class Students(db.Model):
     sex = db.Column(db.String(2),nullable=False)
     age = db.Column(db.Integer,nullable=False)
     english = db.Column(db.Integer,nullable=False)
-    python_score = db.Column(db.Integer,nullable=False)
-    c_score = db.Column(db.Integer,nullable=False)
-
-
+    python = db.Column(db.Integer,nullable=False)
+    c = db.Column(db.Integer,nullable=False)
+    score = db.Column(db.Integer,nullable=False)
+"""
